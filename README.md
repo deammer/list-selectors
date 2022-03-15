@@ -20,13 +20,13 @@ It can be used as a standalone Node function, a CLI, or a [PostCSS](https://gith
 If you use Yarn:
 
 ```
-yarn add list-selectors
+yarn add @deammer/list-selectors
 ```
 
 or if you prefer npm:
 
 ```
-npm install list-selectors
+npm install @deammer/list-selectors
 ```
 
 Version 2+ is compatible with PostCSS 5. (Earlier versions are compatible with PostCSS 4.)
