@@ -1,18 +1,16 @@
 {
-  "name": "list-selectors",
-  "author": {
-    "name": "Maxime Preaux"
-  },
+  "name": "@deammer/list-selectors",
+  "author": "Maxime Preaux",
   "bin": {
-    "list-selectors": "./bin.js"
+    "list-selectors": "bin.js"
   },
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "List the selectors used in your CSS. Use as a standalone function, CLI, or PostCSS plugin.",
-  "homepage": "https://github.com/davidtheclark/list-selectors",
+  "homepage": "https://github.com/deammer/list-selectors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidtheclark/list-selectors.git"
+    "url": "git+https://github.com/deammer/list-selectors.git"
   },
   "keywords": [
     "css",
@@ -46,5 +44,12 @@
     "postcss-reporter": "^1.0",
     "postcss-selector-parser": "^1.1.2",
     "request": "^2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/deammer/list-selectors/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
