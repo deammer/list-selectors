@@ -1,9 +1,7 @@
 {
   "name": "list-selectors",
   "author": {
-    "name": "David Clark",
-    "email": "david.dave.clark@gmail.com",
-    "url": "http://davidtheclark.com"
+    "name": "Maxime Preaux"
   },
   "bin": {
     "list-selectors": "./bin.js"
@@ -33,7 +31,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js test/index.js",
-    "test": "npm run lint && tape test"
+    "test": "yarn run lint && tape test"
   },
   "devDependencies": {
     "eslint": "1.2.1",
@@ -42,7 +40,7 @@
   "dependencies": {
     "chalk": "^1.0",
     "globby": "^2.0",
-    "lodash": "^3.0",
+    "lodash": "4.17.21",
     "minimist": "^1.0",
     "postcss": "^5.0.2",
     "postcss-reporter": "^1.0",

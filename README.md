@@ -12,7 +12,18 @@ It can be used as a standalone Node function, a CLI, or a [PostCSS](https://gith
 
 *v0.2.0+ should be used as a PostCSS plugin only with PostCSS v4.1.0+.*
 
+This package was forked from (davidtheclark/list-selectors)[https://github.com/davidtheclark/list-selectors].
+
 ## Installation
+
+
+If you use Yarn:
+
+```
+yarn add list-selectors
+```
+
+or if you prefer npm:
 
 ```
 npm install list-selectors
@@ -212,7 +223,7 @@ Straight PostCSS:
 
 ```js
 var postcss = require('postcss');
-var listSelectorsPlugin = require('listSelectors').plugin;
+var listSelectorsPlugin = require('list-selectors').plugin;
 
 var mySelectorList;
 var css = fs.readFileSync('foo.css', 'utf8');
