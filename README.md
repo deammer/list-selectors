@@ -1,4 +1,6 @@
-# list-selectors [![Build Status](https://travis-ci.org/davidtheclark/list-selectors.svg?branch=master)](https://travis-ci.org/davidtheclark/list-selectors)
+# list-selectors
+
+This package was forked from [davidtheclark/list-selectors](https://github.com/davidtheclark/list-selectors). All the credit goes to the original author, I only fixed some security vulnerabilities and minor typos.
 
 What do you want in life? Is it to generate a nicely organized list of all the selectors used in your CSS, showing
 
@@ -11,8 +13,6 @@ Yes, that is probably what you want. And your dreams have been realized: this pl
 It can be used as a standalone Node function, a CLI, or a [PostCSS](https://github.com/postcss/postcss) plugin — so it's bound to fit into your workflow.
 
 *v0.2.0+ should be used as a PostCSS plugin only with PostCSS v4.1.0+.*
-
-This package was forked from (davidtheclark/list-selectors)[https://github.com/davidtheclark/list-selectors].
 
 ## Installation
 
