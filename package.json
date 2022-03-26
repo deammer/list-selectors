@@ -5,7 +5,7 @@
     "list-selectors": "bin.js"
   },
   "license": "MIT",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "List the selectors used in your CSS. Use as a standalone function, CLI, or PostCSS plugin.",
   "homepage": "https://github.com/deammer/list-selectors",
   "repository": {
