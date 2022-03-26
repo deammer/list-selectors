@@ -1,6 +1,10 @@
 # Changelog
 
-## v2.0.1
+## v2.1.2
+
+- Deprecated package
+
+## v2.1.1
 
 - Upgrade Lodash to 4.17.21.
 
